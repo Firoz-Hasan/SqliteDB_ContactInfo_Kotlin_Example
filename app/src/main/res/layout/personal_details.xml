@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name : "
+            android:textColor="#f10606"
+            />
+
+        <TextView
+            android:id="@+id/name_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Firoz Hasan "
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone No : "
+            android:textColor="#f10606"
+            />
+
+        <TextView
+            android:id="@+id/number_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="+8801794580033 "
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email : "
+            android:textColor="#f10606"
+            />
+
+        <TextView
+            android:id="@+id/email_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Firoz.Hasan@yahoo.com"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
